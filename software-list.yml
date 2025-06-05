@@ -1,0 +1,979 @@
+# Software Recommendations YAML File
+# This file contains curated software recommendations for developers and tech professionals
+# Format: Each software entry should include the fields below
+
+software:
+  - name: "Visual Studio Code"
+    category: "development"
+    description: "Free source-code editor with IntelliSense, debugging, and Git integration"
+    fullDescription: "Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages and runtimes."
+    url: "https://code.visualstudio.com/"
+    screenshot: "https://code.visualstudio.com/assets/docs/getstarted/userinterface/hero.png"
+    pricing: "Free"
+    rating: 4.8
+    popularity: 5
+    tags:
+      - "Editor"
+      - "Microsoft"
+      - "Cross-platform"
+  - name: "JetBrains IntelliJ IDEA"
+    category: "development"
+    description: "Powerful IDE for Java development with advanced refactoring and debugging tools"
+    fullDescription: "IntelliJ IDEA is an integrated development environment written in Java for developing computer software. It is developed by JetBrains and is available as an Apache 2 Licensed community edition, and in a proprietary commercial edition."
+    url: "https://www.jetbrains.com/idea/"
+    screenshot: "https://www.jetbrains.com/idea/img/screenshots/idea_overview_5_1.png"
+    pricing: "Freemium"
+    rating: 4.7
+    popularity: 4
+    tags:
+      - "IDE"
+      - "Java"
+      - "JetBrains"
+  - name: "GitHub"
+    category: "development"
+    description: "Platform for version control and collaboration using Git"
+    fullDescription: "GitHub is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features."
+    url: "https://github.com/"
+    screenshot: "https://github.githubassets.com/images/modules/site/social-cards/github-social.png"
+    pricing: "Freemium"
+    rating: 4.9
+    popularity: 5
+    tags:
+      - "Git"
+      - "Version Control"
+      - "Collaboration"
+  - name: "Figma"
+    category: "design"
+    description: "Collaborative interface design tool for creating UI/UX designs and prototypes"
+    fullDescription: "Figma is the leading collaborative design tool for building meaningful products. Seamlessly design, prototype, develop, and collect feedback in a single platform."
+    url: "https://www.figma.com/"
+    screenshot: "https://cdn.sanity.io/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png"
+    pricing: "Freemium"
+    rating: 4.9
+    popularity: 5
+    tags:
+      - "UI/UX"
+      - "Prototyping"
+      - "Collaboration"
+  - name: "Adobe Creative Suite"
+    category: "design"
+    description: "Complete suite of creative tools for design, photography, and video editing"
+    fullDescription: "Adobe Creative Suite is a collection of graphic design, video editing, and web development applications made by Adobe Inc. The suite includes Photoshop, Illustrator, InDesign, After Effects, and many more professional tools."
+    url: "https://www.adobe.com/creativecloud.html"
+    pricing: "Paid"
+    rating: 4.6
+    popularity: 5
+    tags:
+      - "Graphics"
+      - "Photography"
+      - "Video Editing"
+  - name: "Canva"
+    category: "design"
+    description: "Easy-to-use design tool for creating graphics, presentations, and social media content"
+    fullDescription: "Canva is a graphic design platform that allows users to create social media graphics, presentations, posters, documents and other visual content. It is available on web and mobile, and integrates millions of images, fonts, templates and illustrations."
+    url: "https://www.canva.com/"
+    screenshot: "https://static.canva.com/web/images/12487a1e52beb56a4fdf0a8f5ca0f686.png"
+    pricing: "Freemium"
+    rating: 4.7
+    popularity: 4
+    tags:
+      - "Graphics"
+      - "Templates"
+      - "Social Media"
+  - name: "Notion"
+    category: "productivity"
+    description: "All-in-one workspace for notes, docs, wikis, and project management"
+    fullDescription: "Notion is the connected workspace where better, faster work happens. Write, plan, share, and get organized. Transform your team productivity with one versatile tool."
+    url: "https://www.notion.so/"
+    screenshot: "https://www.notion.so/images/product/super-duper/tools/web-clipper.png"
+    pricing: "Freemium"
+    rating: 4.5
+    popularity: 4
+    tags:
+      - "Notes"
+      - "Project Management"
+      - "Collaboration"
+  - name: "Slack"
+    category: "productivity"
+    description: "Business communication platform for teams and organizations"
+    fullDescription: "Slack is a proprietary business communication platform developed by Slack Technologies. Slack offers many IRC-style features, including persistent chat rooms organized by topic, private groups, and direct messaging."
+    url: "https://slack.com/"
+    screenshot: "https://a.slack-edge.com/80588/marketing/img/homepage/true-prospects/img-prospect-desktop.png"
+    pricing: "Freemium"
+    rating: 4.4
+    popularity: 5
+    tags:
+      - "Communication"
+      - "Team Collaboration"
+      - "Messaging"
+  - name: "Todoist"
+    category: "productivity"
+    description: "Task management app with natural language processing and cross-platform sync"
+    fullDescription: "Todoist is a task management application. It is developed by Doist and is available as a web application and on multiple platforms including iOS, Android, Windows, macOS and Linux."
+    url: "https://todoist.com/"
+    pricing: "Freemium"
+    rating: 4.6
+    popularity: 3
+    tags:
+      - "Task Management"
+      - "GTD"
+      - "Cross-platform"
+  - name: "Docker"
+    category: "devops"
+    description: "Platform for developing, shipping, and running applications in containers"
+    fullDescription: "Docker helps developers build, test, and deploy applications quickly. Docker packages software into standardized units called containers that have everything the software needs to run."
+    url: "https://www.docker.com/"
+    screenshot: "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png"
+    pricing: "Freemium"
+    rating: 4.6
+    popularity: 5
+    tags:
+      - "Containers"
+      - "Virtualization"
+      - "Deployment"
+  - name: "Kubernetes"
+    category: "devops"
+    description: "Open-source container orchestration platform for automating deployment and scaling"
+    fullDescription: "Kubernetes is an open-source container orchestration system for automating software deployment, scaling, and management. It was originally designed by Google and is now maintained by the Cloud Native Computing Foundation."
+    url: "https://kubernetes.io/"
+    pricing: "Free"
+    rating: 4.5
+    popularity: 4
+    tags:
+      - "Container Orchestration"
+      - "Cloud Native"
+      - "Google"
+  - name: "Jenkins"
+    category: "devops"
+    description: "Open source automation server for continuous integration and deployment"
+    fullDescription: "Jenkins is an open source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration and continuous delivery."
+    url: "https://www.jenkins.io/"
+    pricing: "Free"
+    rating: 4.3
+    popularity: 4
+    tags:
+      - "CI/CD"
+      - "Automation"
+      - "Build Tools"
+  - name: "1Password"
+    category: "security"
+    description: "Secure password manager for individuals, families, and businesses"
+    fullDescription: "1Password is the world's most-loved password manager. Create unique passwords for every account, then let 1Password fill them in with a single click."
+    url: "https://1password.com/"
+    screenshot: "https://i.1password.com/media/1password-8/1password-8-mac-app-light.png"
+    pricing: "Paid"
+    rating: 4.8
+    popularity: 4
+    tags:
+      - "Passwords"
+      - "Security"
+      - "Cross-platform"
+  - name: "Bitwarden"
+    category: "security"
+    description: "Open source password manager with end-to-end encryption"
+    fullDescription: "Bitwarden is an integrated open source password management solution for individuals, teams, and business organizations. The easiest and safest way for individuals and businesses to store, share, and sync sensitive data."
+    url: "https://bitwarden.com/"
+    pricing: "Freemium"
+    rating: 4.7
+    popularity: 3
+    tags:
+      - "Passwords"
+      - "Open Source"
+      - "Encryption"
+  - name: "Wireshark"
+    category: "security"
+    description: "Network protocol analyzer for network troubleshooting and security analysis"
+    fullDescription: "Wireshark is a free and open-source packet analyzer. It is used for network troubleshooting, analysis, software and communications protocol development, and education."
+    url: "https://www.wireshark.org/"
+    pricing: "Free"
+    rating: 4.4
+    popularity: 3
+    tags:
+      - "Network Analysis"
+      - "Security"
+      - "Open Source"
+  - name: "DBeaver"
+    category: "database"
+    description: "Universal database tool for developers, SQL programmers, and database administrators"
+    fullDescription: "DBeaver is free and open source universal database tool for developers and database administrators. Usability is the main goal of this project, program UI is carefully designed and implemented."
+    url: "https://dbeaver.io/"
+    pricing: "Freemium"
+    rating: 4.4
+    popularity: 4
+    tags:
+      - "Database"
+      - "SQL"
+      - "Multi-platform"
+  - name: "MongoDB Compass"
+    category: "database"
+    description: "GUI for MongoDB with visual query building and performance optimization"
+    fullDescription: "MongoDB Compass is the GUI for MongoDB. Compass allows you to analyze and understand your MongoDB data without formal knowledge of MongoDB query syntax."
+    url: "https://www.mongodb.com/products/compass"
+    pricing: "Free"
+    rating: 4.3
+    popularity: 3
+    tags:
+      - "MongoDB"
+      - "NoSQL"
+      - "Visual Query"
+  - name: "Steampipe"
+    category: "database"
+    description: "SQL interface for cloud services, enabling instant infrastructure querying and monitoring"
+    fullDescription: "Steampipe provides zero-ETL, purpose-built SQL for cloud services and APIs. Query your cloud infrastructure, APIs, and services with SQL."
+    url: "https://steampipe.io/"
+    screenshot: "https://steampipe.io/images/steampipe-social-graphic.png"
+    pricing: "Free"
+    rating: 4.3
+    popularity: 2
+    tags:
+      - "Cloud"
+      - "SQL"
+      - "Infrastructure"
+  - name: "Rust"
+    category: "development"
+    description: "Fast, reliable, and memory-efficient programming language with no garbage collection"
+    fullDescription: "Rust is a multi-paradigm, general-purpose programming language that emphasizes performance, type safety, and concurrency. It enforces memory safety without requiring a garbage collector, making it a great language for systems programming."
+    url: "https://www.rust-lang.org/"
+    screenshot: "https://www.rust-lang.org/static/images/rust-social.jpg"
+    pricing: "Free"
+    rating: 4.8
+    popularity: 4
+    tags:
+      - "Programming Language"
+      - "Systems Programming"
+      - "Memory Safety"
+      - "Open Source"
+  - name: "Neovim"
+    category: "development"
+    description: "Hyperextensible Vim-based text editor focused on extensibility and usability"
+    fullDescription: "Neovim is a refactor and extension of Vim, focused on extensibility and usability. It maintains backward compatibility with Vim, while providing improved plugin architecture, terminal emulator, asynchronous execution, and more."
+    url: "https://neovim.io/"
+    screenshot: "https://neovim.io/images/nvim-screenshot.png"
+    pricing: "Free"
+    rating: 4.7
+    popularity: 4
+    tags:
+      - "Text Editor"
+      - "Vim"
+      - "Terminal"
+      - "Open Source"
+  - name: "Gitea"
+    category: "development"
+    description: "Lightweight self-hosted Git service with minimal resource requirements"
+    fullDescription: "Gitea is a painless self-hosted Git service. It is similar to GitHub, Bitbucket, and GitLab, but it's much lighter and can run on even the most inexpensive hardware like a Raspberry Pi."
+    url: "https://gitea.io/"
+    screenshot: "https://gitea.io/images/screenshot.png"
+    pricing: "Free"
+    rating: 4.6
+    popularity: 3
+    tags:
+      - "Git"
+      - "Version Control"
+      - "Self-Hosted"
+      - "Open Source"
+  - name: "Inkscape"
+    category: "design"
+    description: "Professional vector graphics editor that uses SVG as its native format"
+    fullDescription: "Inkscape is a free and open-source vector graphics editor. It can create or edit vector graphics such as illustrations, diagrams, line arts, charts, logos and complex paintings. It's a great alternative to Adobe Illustrator."
+    url: "https://inkscape.org/"
+    screenshot: "https://inkscape.org/gallery/item/10075/screenshot-0.92.png"
+    pricing: "Free"
+    rating: 4.6
+    popularity: 4
+    tags:
+      - "Vector Graphics"
+      - "SVG"
+      - "Illustration"
+      - "Open Source"
+  - name: "GIMP"
+    category: "design"
+    description: "Cross-platform image editor for photo retouching, composition, and image authoring"
+    fullDescription: "GIMP (GNU Image Manipulation Program) is a free and open-source raster graphics editor used for image retouching and editing, free-form drawing, converting between different image formats, and more specialized tasks."
+    url: "https://www.gimp.org/"
+    screenshot: "https://www.gimp.org/release-notes/images/gimp-2.10-screenshot-01-nibbles.jpg"
+    pricing: "Free"
+    rating: 4.5
+    popularity: 4
+    tags:
+      - "Image Editing"
+      - "Photo Manipulation"
+      - "Raster Graphics"
+      - "Open Source"
+  - name: "Blender"
+    category: "design"
+    description: "Free and open-source 3D creation suite supporting modeling, rigging, animation, and more"
+    fullDescription: "Blender is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, 3D models, applications, and video games. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing, and motion tracking."
+    url: "https://www.blender.org/"
+    screenshot: "https://www.blender.org/wp-content/uploads/2022/01/blender-3.0-screenshot.jpg"
+    pricing: "Free"
+    rating: 4.8
+    popularity: 5
+    tags:
+      - "3D Modeling"
+      - "Animation"
+      - "Video Editing"
+      - "Open Source"
+  - name: "LibreOffice"
+    category: "productivity"
+    description: "Free and open-source office suite with word processor, spreadsheet, and presentation tools"
+    fullDescription: "LibreOffice is a free and open-source office suite, compatible with other major office suites. It includes applications for word processing, spreadsheets, presentations, diagrams, databases, and formula editing."
+    url: "https://www.libreoffice.org/"
+    screenshot: "https://www.libreoffice.org/assets/Uploads/img-zoom.png"
+    pricing: "Free"
+    rating: 4.5
+    popularity: 4
+    tags:
+      - "Office Suite"
+      - "Document Processing"
+      - "Spreadsheets"
+      - "Open Source"
+  - name: "Joplin"
+    category: "productivity"
+    description: "Note-taking app with Markdown support, sync capabilities, and end-to-end encryption"
+    fullDescription: "Joplin is a free and open-source note-taking and to-do application that can handle a large number of notes organized into notebooks. Notes are searchable, can be copied, tagged and modified directly from the applications or from your own text editor."
+    url: "https://joplinapp.org/"
+    screenshot: "https://joplinapp.org/images/home-top.png"
+    pricing: "Free"
+    rating: 4.7
+    popularity: 4
+    tags:
+      - "Note Taking"
+      - "Markdown"
+      - "Encryption"
+      - "Open Source"
+  - name: "Logseq"
+    category: "productivity"
+    description: "Privacy-first, open-source knowledge management and collaboration platform"
+    fullDescription: "Logseq is a privacy-first, open-source knowledge base that works on top of local plain-text Markdown and Org-mode files. It's built for networked thought, allowing for seamless daily note-taking and knowledge connection."
+    url: "https://logseq.com/"
+    screenshot: "https://logseq.com/static/img/screenshot.png"
+    pricing: "Free"
+    rating: 4.6
+    popularity: 3
+    tags:
+      - "Knowledge Base"
+      - "Note Taking"
+      - "Markdown"
+      - "Open Source"
+  - name: "Portainer"
+    category: "devops"
+    description: "Lightweight management UI for Docker, with simple container deployment and management"
+    fullDescription: "Portainer is a powerful, open-source management toolset that allows you to easily build, manage and maintain Docker environments. It simplifies container management through its clean web interface without requiring direct command line interaction."
+    url: "https://www.portainer.io/"
+    screenshot: "https://www.portainer.io/hubfs/portainer-ui-screenshot.png"
+    pricing: "Freemium"
+    rating: 4.5
+    popularity: 4
+    tags:
+      - "Docker"
+      - "Container Management"
+      - "UI"
+      - "Open Source"
+  - name: "Traefik"
+    category: "devops"
+    description: "Modern HTTP reverse proxy and load balancer that makes microservice deployment easy"
+    fullDescription: "Traefik is an open-source Edge Router that makes publishing your services a fun and easy experience. It automatically discovers the right configuration for your services, supports multiple backends, and comes with let's encrypt integration for automatic HTTPS."
+    url: "https://traefik.io/"
+    screenshot: "https://traefik.io/static/traefik-ui-dashboard-6f5b3b8c9d32475e9b329c10b12b9d3c.png"
+    pricing: "Free"
+    rating: 4.6
+    popularity: 3
+    tags:
+      - "Reverse Proxy"
+      - "Load Balancer"
+      - "Microservices"
+      - "Open Source"
+  - name: "Grafana"
+    category: "devops"
+    description: "Multi-platform analytics and interactive visualization web application for metrics monitoring"
+    fullDescription: "Grafana is an open-source analytics and interactive visualization web application. It provides charts, graphs, and alerts when connected to supported data sources, including Prometheus, InfluxDB, and many others."
+    url: "https://grafana.com/"
+    screenshot: "https://grafana.com/static/assets/img/blog/timeshift/dashboard_examples_daniellee_301118_copy.jpg"
+    pricing: "Freemium"
+    rating: 4.7
+    popularity: 4
+    tags:
+      - "Monitoring"
+      - "Visualization"
+      - "Analytics"
+      - "Open Source"
+  - name: "OpenVPN"
+    category: "security"
+    description: "Virtual private network software for creating secure point-to-point connections"
+    fullDescription: "OpenVPN is an open-source VPN protocol that allows you to create secure, encrypted connections. It uses custom security protocol that relies on SSL/TLS for key exchange and can traverse network address translators (NATs) and firewalls."
+    url: "https://openvpn.net/"
+    screenshot: "https://openvpn.net/wp-content/uploads/legacy-images/vpn-across-nat.jpg"
+    pricing: "Freemium"
+    rating: 4.5
+    popularity: 4
+    tags:
+      - "VPN"
+      - "Encryption"
+      - "Network Security"
+      - "Open Source"
+  - name: "KeePassXC"
+    category: "security"
+    description: "Cross-platform password manager with advanced security features and autofill capabilities"
+    fullDescription: "KeePassXC is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe. It offers a secure and trusted way to store your passwords using advanced encryption, automatic form-filling, and cross-platform compatibility."
+    url: "https://keepassxc.org/"
+    screenshot: "https://keepassxc.org/images/screenshots/keepassxc-2.6-macos-dark.png"
+    pricing: "Free"
+    rating: 4.7
+    popularity: 4
+    tags:
+      - "Password Manager"
+      - "Encryption"
+      - "Security"
+      - "Open Source"
+  - name: "Kali Linux"
+    category: "security"
+    description: "Advanced penetration testing and security auditing Linux distribution"
+    fullDescription: "Kali Linux is an open-source, Debian-based Linux distribution aimed at advanced Penetration Testing and Security Auditing. It contains several hundred tools which are geared towards various information security tasks."
+    url: "https://www.kali.org/"
+    screenshot: "https://www.kali.org/blog/kali-2023-4-release/images/kali-linux.jpg"
+    pricing: "Free"
+    rating: 4.8
+    popularity: 4
+    tags:
+      - "Penetration Testing"
+      - "Security"
+      - "Linux Distro"
+      - "Open Source"
+  - name: "PostgreSQL"
+    category: "database"
+    description: "Powerful, open-source object-relational database system with strong reputation for reliability"
+    fullDescription: "PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development. It has earned a strong reputation for reliability, feature robustness, and performance."
+    url: "https://www.postgresql.org/"
+    screenshot: "https://www.postgresql.org/media/img/about/press/elephant.png"
+    pricing: "Free"
+    rating: 4.8
+    popularity: 5
+    tags:
+      - "RDBMS"
+      - "SQL"
+      - "Database Server"
+      - "Open Source"
+  - name: "Redis"
+    category: "database"
+    description: "In-memory data structure store used as a database, cache, and message broker"
+    fullDescription: "Redis is an open source, in-memory data structure store, used as a database, cache, and message broker. It supports data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes, and streams."
+    url: "https://redis.io/"
+    screenshot: "https://redis.io/images/redis-white.png"
+    pricing: "Free"
+    rating: 4.7
+    popularity: 4
+    tags:
+      - "NoSQL"
+      - "In-Memory Database"
+      - "Cache"
+      - "Open Source"
+  - name: "MinIO"
+    category: "database"
+    description: "High-performance, S3 compatible object storage for AI and cloud-native workloads"
+    fullDescription: "MinIO is a high-performance, Kubernetes-native object storage suite. With its S3 compatibility, it's ideal for building machine learning workflows, data lakes, and cloud-native applications. It's built for scale and performance in a 100% open source model."
+    url: "https://min.io/"
+    screenshot: "https://min.io/resources/img/home/console.webp"
+    pricing: "Free"
+    rating: 4.5
+    popularity: 3
+    tags:
+      - "Object Storage"
+      - "S3 Compatible"
+      - "Cloud Native"
+      - "Open Source"
+  - name: "ActivityWatch"
+    category: "productivity"
+    description: "Open-source, privacy-focused time tracker that helps you understand how you spend your time"
+    fullDescription: "ActivityWatch is an open-source app that automatically tracks how you spend time on your devices. It's designed with privacy in mind and gives you insights about your productivity, while keeping your data on your own devices."
+    url: "https://activitywatch.net/"
+    screenshot: "https://activitywatch.net/img/screenshot.png"
+    pricing: "Free"
+    rating: 4.3
+    popularity: 2
+    tags:
+      - "Time Tracking"
+      - "Productivity"
+      - "Analytics"
+      - "Open Source"
+  - name: "LibreWolf"
+    category: "security"
+    description: "Privacy-focused Firefox fork with enhanced security and tracking protection"
+    fullDescription: "LibreWolf is a fork of Firefox, focused on privacy, security and freedom. It includes enhanced tracking protection and removes telemetry, data collection and sponsored content from Firefox."
+    url: "https://librewolf.net/"
+    screenshot: "https://librewolf.net/img/preview.png"
+    pricing: "Free"
+    rating: 4.7
+    popularity: 3
+    tags:
+      - "Browser"
+      - "Privacy"
+      - "Firefox Fork"
+      - "Open Source"
+  - name: "Tor Browser"
+    category: "security"
+    description: "Browser designed for anonymous web surfing through the Tor network"
+    fullDescription: "Tor Browser is a modified version of Firefox that routes your web traffic through the Tor network, encrypting it multiple times and bouncing it through several relays for anonymity. It's designed to resist fingerprinting and includes pre-configured privacy settings."
+    url: "https://www.torproject.org/"
+    screenshot: "https://www.torproject.org/static/images/tor-browser-window.png"
+    pricing: "Free"
+    rating: 4.6
+    popularity: 4
+    tags:
+      - "Browser"
+      - "Anonymity"
+      - "Encryption"
+      - "Open Source"
+  - name: "Mullvad Browser"
+    category: "security"
+    description: "Privacy-focused browser based on Firefox for VPN users"
+    fullDescription: "Mullvad Browser is a version of Tor Browser with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting technologies to VPN users. It's developed in collaboration with the Tor Project."
+    url: "https://mullvad.net/en/browser"
+    screenshot: "https://mullvad.net/media/pages/help/mullvad-browser/4bfca724ea-1686574373/mb-fingerprint-dark-2x.jpg"
+    pricing: "Free"
+    rating: 4.5
+    popularity: 3
+    tags:
+      - "Browser"
+      - "Privacy"
+      - "Anti-Fingerprinting"
+      - "Open Source"
+  - name: "Firefox Focus"
+    category: "security"
+    description: "Privacy-focused mobile browser with automatic tracking protection"
+    fullDescription: "Firefox Focus is a dedicated privacy browser for mobile devices with automatic tracking protection and ad blocking built in. It offers simple Browse with automatic history clearing and no tabs for minimal data retention."
+    url: "https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/"
+    screenshot: "https://www.mozilla.org/media/img/firefox/mobile-products/focus/ui-v1.7ff71f099583.png"
+    pricing: "Free"
+    rating: 4.3
+    popularity: 3
+    tags:
+      - "Browser"
+      - "Mobile"
+      - "Privacy"
+      - "Open Source"
+  - name: "uBlock Origin"
+    category: "security"
+    description: "Efficient content blocker for web browsers with low memory footprint"
+    fullDescription: "uBlock Origin is a free and open-source, cross-platform browser extension for content filtering—primarily aimed at neutralizing privacy invasion in an efficient, user-friendly method. It blocks ads, trackers, malware sites, and can be configured for more advanced filtering."
+    url: "https://github.com/gorhill/uBlock"
+    screenshot: "https://user-images.githubusercontent.com/585534/90161000-4cdfa800-dd5a-11ea-8190-6d48606e6b7f.png"
+    pricing: "Free"
+    rating: 4.9
+    popularity: 5
+    tags:
+      - "Content Blocker"
+      - "Ad Blocker"
+      - "Browser Extension"
+      - "Open Source"
+  - name: "Signal"
+    category: "security"
+    description: "Encrypted messaging app with focus on privacy and security"
+    fullDescription: "Signal is a cross-platform encrypted messaging service that uses end-to-end encryption to secure all communications. Signal can be used to send and receive encrypted messages, group messages, attachments and media messages."
+    url: "https://signal.org/"
+    screenshot: "https://signal.org/assets/header/signal-header-3de633e0615e91608da63b1491f76002d8c4465f998e278217a1f871295fff95.png"
+    pricing: "Free"
+    rating: 4.8
+    popularity: 4
+    tags:
+      - "Messaging"
+      - "End-to-End Encryption"
+      - "Privacy"
+      - "Open Source"
+  - name: "SimpleX Chat"
+    category: "security"
+    description: "The first messaging platform without user identifiers of any kind"
+    fullDescription: "SimpleX Chat offers unmatched privacy as it has no user identifiers, not even random numbers. It delivers messages via a network of nodes without revealing identities to the platform. Unlike Signal or other messengers, SimpleX has no central server that stores your contacts or metadata."
+    url: "https://simplex.chat/"
+    screenshot: "https://simplex.chat/img/how-simplex-works.png"
+    pricing: "Free"
+    rating: 4.7
+    popularity: 2
+    tags:
+      - "Messaging"
+      - "Privacy"
+      - "No User IDs"
+      - "Open Source"
+  - name: "Session"
+    category: "security"
+    description: "End-to-end encrypted messenger that minimizes sensitive metadata"
+    fullDescription: "Session is an end-to-end encrypted messenger that removes sensitive metadata, doesn't require a phone number or email to sign up, and uses decentralized servers to ensure no single point of compromise. It's built on the Oxen Service Node Network."
+    url: "https://getsession.org/"
+    screenshot: "https://getsession.org/wp-content/uploads/2023/04/Session-Devices-with-Shadow.webp"
+    pricing: "Free"
+    rating: 4.5
+    popularity: 3
+    tags:
+      - "Messaging"
+      - "Decentralized"
+      - "Privacy"
+      - "Open Source"
+  - name: "Briar"
+    category: "security"
+    description: "P2P encrypted messaging app that works even without internet access"
+    fullDescription: "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe way to communicate. Messages are synchronized directly between devices instead of going through central servers, and can work over Bluetooth, WiFi, or Tor when internet is available."
+    url: "https://briarproject.org/"
+    screenshot: "https://briarproject.org/img/screenshots/briar-screenshot-contacts.png"
+    pricing: "Free"
+    rating: 4.4
+    popularity: 2
+    tags:
+      - "Messaging"
+      - "Peer-to-Peer"
+      - "No Internet Required"
+      - "Open Source"
+  - name: "LibreFox"
+    category: "security"
+    description: "Privacy-focused web browser based on Firefox"
+    fullDescription: "LibreFox is a fork of Firefox focused on privacy, security and freedom. It comes with pre-configured privacy settings that reduce tracking and fingerprinting, while removing telemetry and data collection features present in standard Firefox."
+    url: "https://github.com/intika/Librefox"
+    screenshot: "https://raw.githubusercontent.com/intika/Librefox/master/capture.png"
+    pricing: "Free"
+    rating: 4.5
+    popularity: 2
+    tags:
+      - "Browser"
+      - "Privacy"
+      - "Anti-Fingerprinting"
+      - "Open Source"
+  - name: "AdGuard"
+    category: "security"
+    description: "Advanced ad blocker with additional privacy protections"
+    fullDescription: "AdGuard is a powerful ad blocker that removes ads and stops trackers not just in your browser but at the system level. It features DNS filtering to block ads in all apps, protection against tracking, and phishing/malware blocking to improve security."
+    url: "https://adguard.com/"
+    screenshot: "https://cdn.adguard.com/public/Adguard/screenshots/android/main_en.png"
+    pricing: "Freemium"
+    rating: 4.7
+    popularity: 4
+    tags:
+      - "Ad Blocking"
+      - "DNS Filtering"
+      - "Privacy"
+      - "Partly Open Source"
+  - name: "LocalCDN"
+    category: "security"
+    description: "Browser extension that emulates CDNs locally to improve privacy"
+    fullDescription: "LocalCDN is a browser extension that protects you against tracking through CDNs (Content Delivery Networks) by replacing requests to public CDNs with local resources. This prevents CDNs from tracking your Browse behavior across different sites."
+    url: "https://www.localcdn.org/"
+    screenshot: "https://www.localcdn.org/assets/img/screenshot.png"
+    pricing: "Free"
+    rating: 4.6
+    popularity: 2
+    tags:
+      - "Browser Extension"
+      - "Anti-Tracking"
+      - "CDN Protection"
+      - "Open Source"
+  - name: "Startpage"
+    category: "security"
+    description: "Private search engine that delivers Google results with enhanced privacy"
+    fullDescription: "Startpage is a search engine that delivers Google search results but without the tracking and data collection. It acts as a proxy between you and Google, stripping identifying information from your searches and preventing profile building or targeting."
+    url: "https://www.startpage.com/"
+    screenshot: "https://www.startpage.com/sp/cdn/images/og-startpage.jpg"
+    pricing: "Free"
+    rating: 4.7
+    popularity: 4
+    tags:
+      - "Search Engine"
+      - "Privacy"
+      - "No Tracking"
+      - "Closed Source"
+  - name: "MetaGer"
+    category: "security"
+    description: "Privacy-focused metasearch engine operated by a non-profit"
+    fullDescription: "MetaGer is a metasearch engine operated by a non-profit organization that focuses on user privacy. It combines results from multiple search engines, anonymizes your searches, and offers features like a proxy service to visit search results anonymously."
+    url: "https://metager.org/"
+    screenshot: "https://metager.org/img/metager-logo.svg"
+    pricing: "Free"
+    rating: 4.5
+    popularity: 3
+    tags:
+      - "Search Engine"
+      - "Metasearch"
+      - "Non-profit"
+      - "Open Source"
+  - name: "Proton Drive"
+    category: "security"
+    description: "Encrypted cloud storage from the makers of Proton Mail"
+    fullDescription: "Proton Drive provides end-to-end encrypted file storage in the cloud. Files are encrypted on your device before being uploaded, ensuring that only you can access your data. It's made by the same team behind Proton Mail and based in Switzerland with strong privacy laws."
+    url: "https://proton.me/drive"
+    screenshot: "https://proton.me/static/dc5ca2dac86e9d2f3f3ee14ca38d185c/proton-drive-banner.jpg"
+    pricing: "Freemium"
+    rating: 4.7
+    popularity: 4
+    tags:
+      - "Cloud Storage"
+      - "End-to-End Encryption"
+      - "Swiss Privacy"
+      - "Open Source"
+  - name: "Tresorit"
+    category: "security"
+    description: "End-to-end encrypted cloud storage and file sharing service"
+    fullDescription: "Tresorit is a cloud storage service with a focus on security through end-to-end encryption. It offers secure file sharing, syncing across devices, and collaboration features for teams, all protected with zero-knowledge encryption so the company can't access your files."
+    url: "https://tresorit.com/"
+    screenshot: "https://tresorit.com/blog/content/images/size/w1200/2020/07/secure-file-sharing-for-business.jpg"
+    pricing: "Paid"
+    rating: 4.6
+    popularity: 3
+    tags:
+      - "Cloud Storage"
+      - "End-to-End Encryption"
+      - "Secure Sharing"
+      - "Closed Source"
+  - name: "Tailscale"
+    category: "security"
+    description: "Zero-config VPN for building secure networks between your devices"
+    fullDescription: "Tailscale is a modern VPN built on WireGuard that makes it easy to connect your devices securely, wherever they are. Unlike traditional VPNs, it creates a mesh network between your devices, without requiring complex configuration or a central server."
+    url: "https://tailscale.com/"
+    screenshot: "https://tailscale.com/blog/social-cards/introducing-tailscale.png"
+    pricing: "Freemium"
+    rating: 4.8
+    popularity: 3
+    tags:
+      - "VPN Alternative"
+      - "WireGuard"
+      - "Mesh Network"
+      - "Partly Open Source"
+  - name: "Orbot"
+    category: "security"
+    description: "Tor proxy for Android that routes apps through the Tor network"
+    fullDescription: "Orbot is a free proxy app that empowers other apps to use the internet more securely. It uses Tor to encrypt your internet traffic and hide it by bouncing through a series of computers around the world, allowing you to route selected apps through Tor for enhanced privacy."
+    url: "https://guardianproject.info/apps/org.torproject.android/"
+    screenshot: "https://guardianproject.info/wp-content/uploads/2018/09/Orbot-Dashboard-Default-1.png"
+    pricing: "Free"
+    rating: 4.6
+    popularity: 3
+    tags:
+      - "Tor"
+      - "Proxy"
+      - "Mobile Privacy"
+      - "Open Source"
+  - name: "Psono"
+    category: "security"
+    description: "Team password manager with end-to-end encryption and secure sharing"
+    fullDescription: "Psono is a password manager designed for teams with a focus on high security through end-to-end encryption. It allows secure sharing of passwords and sensitive data within teams while maintaining complete privacy even from the service provider."
+    url: "https://psono.com/"
+    screenshot: "https://psono.com/assets/img/demo-laptop.png"
+    pricing: "Freemium"
+    rating: 4.5
+    popularity: 2
+    tags:
+      - "Password Manager"
+      - "Team Sharing"
+      - "End-to-End Encryption"
+      - "Open Source"
+  - name: "Tutanota"
+    category: "security"
+    description: "Secure email service with built-in encryption"
+    fullDescription: "Tutanota is an end-to-end encrypted email software and service based in Germany. All emails and contacts stored on the server are encrypted, as well as subject, content, and attachments. It offers both free and paid accounts with additional storage and features."
+    url: "https://tutanota.com/"
+    screenshot: "https://tutanota.com/images/screenshot/mail-inbox-light-en@2x.jpg"
+    pricing: "Freemium"
+    rating: 4.6
+    popularity: 3
+    tags:
+      - "Email"
+      - "Encryption"
+      - "German Privacy"
+      - "Open Source"
+  - name: "SimpleLogin"
+    category: "security"
+    description: "Create email aliases to protect your real email address"
+    fullDescription: "SimpleLogin is an open-source email aliasing service that lets you create unlimited email aliases that forward to your real inbox. This helps protect your privacy by hiding your real email address from services you sign up for, and you can disable aliases if they start receiving spam."
+    url: "https://simplelogin.io/"
+    screenshot: "https://simplelogin.io/images/index/hero.png"
+    pricing: "Freemium"
+    rating: 4.7
+    popularity: 3
+    tags:
+      - "Email Aliases"
+      - "Privacy"
+      - "Anti-Spam"
+      - "Open Source"
+  - name: "Jitsi Meet"
+    category: "security"
+    description: "Encrypted video conferencing platform that requires no account"
+    fullDescription: "Jitsi Meet is a fully encrypted, open-source video conferencing solution that requires no account or installation. You can use it directly in your browser, create rooms instantly, and share them with others for quick, secure meetings with features like screen sharing and chat."
+    url: "https://jitsi.org/jitsi-meet/"
+    screenshot: "https://jitsi.org/wp-content/uploads/2020/04/jitsi-meet-phones-6-1536x1063.png"
+    pricing: "Free"
+    rating: 4.7
+    popularity: 4
+    tags:
+      - "Video Conferencing"
+      - "No Account Required"
+      - "Web-Based"
+      - "Open Source"
+  - name: "Jami"
+    category: "security"
+    description: "Distributed communication platform with voice, video, and chat"
+    fullDescription: "Jami is a free, universal communication platform that respects users' privacy and freedoms. It uses distributed architecture instead of centralized servers, supports encrypted messaging, voice and video calls, screen sharing, and group conversations without requiring account creation."
+    url: "https://jami.net/"
+    screenshot: "https://jami.net/assets/images/jami-multiple-devices-en-light.png"
+    pricing: "Free"
+    rating: 4.5
+    popularity: 2
+    tags:
+      - "Communication"
+      - "Distributed"
+      - "SIP Compatible"
+      - "Open Source"
+  - name: "GrapheneOS"
+    category: "security"
+    description: "Privacy and security focused mobile operating system for Android devices"
+    fullDescription: "GrapheneOS is an open-source privacy and security focused mobile operating system built on Android with enhanced security features. It focuses on the research and development of privacy and security technology including substantial improvements to sandboxing, exploit mitigations, and the permission model."
+    url: "https://grapheneos.org/"
+    screenshot: "https://grapheneos.org/opengraph.png"
+    pricing: "Free"
+    rating: 4.8
+    popularity: 3
+    tags:
+      - "Mobile OS"
+      - "Android"
+      - "Privacy"
+      - "Open Source"
+  - name: "CalyxOS"
+    category: "security"
+    description: "Android-based operating system focused on privacy and ease of use"
+    fullDescription: "CalyxOS is a free and open source Android-based operating system that puts privacy and security into the hands of everyday users. It comes with carefully selected apps to protect your privacy, and maintains compatibility with standard Android apps through MicroG services."
+    url: "https://calyxos.org/"
+    screenshot: "https://calyxos.org/assets/images/pages/home/devices-fbe6ba6e.png"
+    pricing: "Free"
+    rating: 4.7
+    popularity: 3
+    tags:
+      - "Mobile OS"
+      - "Android"
+      - "Privacy"
+      - "Open Source"
+  - name: "Status"
+    category: "security"
+    description: "Decentralized messaging app that doesn't require personal identifiers"
+    fullDescription: "Status is a decentralized, privacy-focused messaging app that uses the peer-to-peer (p2p) Waku protocol to remove centralized third parties from the messaging process. No phone number or email address is required to sign up, protecting your identity."
+    url: "https://status.im/"
+    screenshot: "https://status.im/img/social-share.png"
+    pricing: "Free"
+    rating: 4.6
+    popularity: 2
+    tags:
+      - "Messaging"
+      - "Decentralized"
+      - "No User IDs"
+      - "Open Source"
+  - name: "Delta Chat"
+    category: "security"
+    description: "Encrypted messenger that uses the email network without requiring a new account"
+    fullDescription: "Delta Chat is a unique messenger that uses the existing email network for communication but with a chat-like interface. It works without additional tracking and offers end-to-end encryption. You can chat with anyone who has an email address, even if they don't use Delta Chat."
+    url: "https://delta.chat/"
+    screenshot: "https://delta.chat/assets/home/screenshot.png"
+    pricing: "Free"
+    rating: 4.4
+    popularity: 2
+    tags:
+      - "Messaging"
+      - "Email Based"
+      - "No New Account"
+      - "Open Source"
+  - name: "Jellyfin"
+    category: "media"
+    description: "Free and open source media server to organize, play, and stream audio and video"
+    fullDescription: "Jellyfin is a free and open source media server that puts you in control of managing and streaming your media. It's an alternative to proprietary solutions like Emby and Plex, with no premium licenses, features, or hidden agendas. Jellyfin lets you organize your media collection and stream it to any device."
+    url: "https://jellyfin.org/"
+    screenshot: "https://jellyfin.org/images/logo.svg"
+    pricing: "Free"
+    rating: 4.9
+    popularity: 5
+    tags:
+      - "Media Server"
+      - "Streaming"
+      - "Video"
+      - "Music"
+      - "Open Source"
+  - name: "RustDesk"
+    category: "utilities"
+    description: "Open source remote desktop software with no configuration required"
+    fullDescription: "RustDesk is a remote desktop software written in Rust that works out of the box, no configuration required. You have full control of your data, with no concerns about security. You can use their rendezvous/relay server, set up your own, or write your own rendezvous/relay server."
+    url: "https://rustdesk.com/"
+    screenshot: "https://user-images.githubusercontent.com/71636191/171661982-430285f0-2e12-4b1d-9957-4a58e375304d.png"
+    pricing: "Free"
+    rating: 4.8
+    popularity: 5
+    tags:
+      - "Remote Desktop"
+      - "Screen Sharing"
+      - "Remote Control"
+      - "Open Source"
+  - name: "Sunshine"
+    category: "gaming"
+    description: "Self-hosted game stream host for Moonlight that allows streaming games"
+    fullDescription: "Sunshine is a self-hosted game streaming host for Moonlight. It allows you to stream your games from your PC to any Moonlight-compatible client on a variety of devices. Sunshine offers low latency, cloud gaming server capabilities with support for AMD, Intel, and Nvidia GPUs for hardware encoding."
+    url: "https://app.lizardbyte.dev/Sunshine/"
+    screenshot: "https://github.com/LizardByte/Sunshine/raw/master/sunshine.png"
+    pricing: "Free"
+    rating: 4.7
+    popularity: 4
+    tags:
+      - "Game Streaming"
+      - "Remote Gaming"
+      - "Self-Hosted"
+      - "Open Source"
+  - name: "Moonlight"
+    category: "gaming"
+    description: "GameStream client for PCs, mobile and embedded devices"
+    fullDescription: "Moonlight is an open source implementation of NVIDIA's GameStream protocol, allowing you to stream your PC games to almost any device. It works with NVIDIA's GameStream technology and Sunshine, supporting hardware accelerated video decoding, surround sound, and gamepad support."
+    url: "https://moonlight-stream.org/"
+    screenshot: "https://moonlight-stream.org/images/logo.svg"
+    pricing: "Free"
+    rating: 4.8
+    popularity: 4
+    tags:
+      - "Game Streaming"
+      - "Remote Gaming"
+      - "Client"
+      - "Open Source"
+  - name: "Khoj"
+    category: "utilities"
+    description: "Personal AI app to extend your capabilities with local and cloud LLMs"
+    fullDescription: "Khoj is a personal AI app that smoothly scales from an on-device personal AI to a cloud-scale enterprise AI. It allows you to chat with any local or online LLM, get answers from the internet and your documents, access from browsers and apps, and create custom agents with specific knowledge and tools."
+    url: "https://khoj.dev/"
+    screenshot: "https://assets.khoj.dev/khoj-logo-sideways-1200x540.png"
+    pricing: "Freemium"
+    rating: 4.7
+    popularity: 5
+    tags:
+      - "AI"
+      - "Second Brain"
+      - "Search"
+      - "LLM"
+      - "Open Source"
+  - name: "changedetection.io"
+    category: "utilities"
+    description: "Self-hosted tool to monitor websites for changes and send notifications"
+    fullDescription: "changedetection.io allows you to monitor websites for changes and receive notifications when content changes. It features visual selection tools, diff viewing, price tracking, restock monitoring, browser automation, and supports multiple notification methods including email, Slack, Discord, and more."
+    url: "https://changedetection.io/"
+    screenshot: "https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/screenshot-notifications.png"
+    pricing: "Free"
+    rating: 4.8
+    popularity: 4
+    tags:
+      - "Web Monitoring"
+      - "Change Detection"
+      - "Notifications"
+      - "Price Tracking"
+      - "Open Source"
+  - name: "Obsidian"
+    category: "productivity"
+    description: "Powerful knowledge base and note-taking app using local Markdown files."
+    fullDescription: "Obsidian is a private and flexible note-taking app that adapts to the way you think. It's a powerful knowledge base that works on top of a local folder of plain text Markdown files. It allows you to create a web of interconnected thoughts with features like backlinks and graph view, and can be customized extensively with themes and plugins."
+    url: "https://obsidian.md/"
+    screenshot: "https://obsidian.md/images/obsidian-ui-showcase.png"
+    pricing: "Freemium"
+    rating: 4.8
+    popularity: 5
+    tags:
+      - "Markdown"
+      - "Notes"
+      - "Knowledge Base"
+      - "Second Brain"
+      - "Cross-platform"
+      - "Local First"
+      - "Plugins"
